@@ -93,23 +93,23 @@ for test_row in test_dataset.shuffle(1800).map(prepare).take(5):
     print_result(test_row, reloaded_model)
 ```
 ```
-context: [b'@USER How can we get promotions committees to rethink some of this ? #mededchat']
-response: [b'@USER @USER Yes of course you can . But probably need to do this by publishing papers .. lol . Check out the work by @USER et al <URL> et al <URL> And group : <URL> Turn into white paper for P & T cmte !']
-prediction: NOT_SARCASM
-
-context: [b'It was inappropriate for the president to ask a foreign leader to investigate his political opponent and to withhold United States aid to encourage that investigation . 5/15']
-response: [b'@USER When our election is further compromised by foreign entanglements & degrades American voter confidence in our democratic constitutional republic , this decision of yours will stain your reputation forever .']
-prediction: NOT_SARCASM
-
-context: [b"@USER @USER @USER Just another example of ' s FUBAR . Just got this message . You've got some bugs . Start with freeing and everyone from Twitter jail . #HeroesResist #BringBackHeroes <URL>"]
-response: [b'@USER @USER @USER Ridiculous . I have been following for years . He has always been incredibly decent and respectful . But T gets to say and do whateva , \xe2\x9c\x8c \xf0\x9f\x8f\xbe BS .']
-prediction: NOT_SARCASM
-
-context: [b'@USER @USER Hey Ash here . Selling or #Service ? Tell me you both ! \xf0\x9f\x92\x99']
-response: [b'@USER @USER Correction : Selling and #Service but for free ? Tell me guys ? But yeah let \xe2\x80\x99 s for a while #TakeOver and later once our goals are achieved we \xe2\x80\x99 ll leave it to the . What say ? \xf0\x9f\x92\x99']
-prediction: NOT_SARCASM
-
-context: [b'@USER @USER I \xe2\x80\x99 m not in position to say that . I \xe2\x80\x99 m simply a concerned , loyal and patriotic citizen who wants and believes in his country and crave for everything to work properly .']
-response: [b'@USER @USER @USER Suffice to say , there\'s no basis for & there should be NO investigation . After all , for d love of d country , one\'s OWN daughter that is " eminently qualified " can & should be employed & appointed to work & " serve " d citizenry . Wailers see " patriotic " act as NEPOTIC act']
+context: [b'@USER @USER @USER It \xe2\x80\x99 s obvious I \xe2\x80\x99 m dealing with a double digit IQ . Have a good life .']
+response: [b'@USER @USER @USER Hahahahahah What a chump . No testicular fortitude at all . It \xe2\x80\x99 s unsurprising that liberals lose with people like this . <URL>']
 prediction: SARCASM
+
+context: [b'@USER @USER asked me to respond to @USER . See attached . Thanks for the opportunity . #KXL <URL>']
+response: [b'@USER @USER @USER Imagine that . A politician making baseless accusations . Because has * never * done that before .']
+prediction: SARCASM
+
+context: [b'@USER @USER By all means you should initiate another failed impeachment , causing further embarrassment ( if that were even possible ) to your party , then go tear up some official documents like a toddler .']
+response: [b'@USER @USER @USER Yet you have no shame in supporting the biggest criminal in White House history .']
+prediction: SARCASM
+
+context: [b'@USER @USER Aaaayyyyyeeee I \xe2\x80\x99 m the Hypemobile humie . I gatchu ! ! ! \xf0\x9f\x98\x9c \xf0\x9f\x91\x8c \xf0\x9f\x8f\xbc']
+response: [b'@USER @USER Oh ... OHHHH ! That \xe2\x80\x99 s how it \xe2\x80\x99 s gonna be ? My two bestfriends just gon \xe2\x80\x99 team up on me ? \xf0\x9f\x98\xa1']
+prediction: NOT_SARCASM
+
+context: [b"@USER @USER @USER Thank You so much , Diablo , My Dearest Friend ! I am grateful every day , as I am happy every day . I make those choices every day for me ! It doesn't matter what is going on , my choices stick . I give the gift of positivity to myself , to everyone I touch ! LOVE U XOXO <URL>"]
+response: [b'@USER @USER @USER All good things are possible when the #heart illuminates the mind #ThinkBIGSundayWithMarsha #InspireThemRetweetTuesday <URL>']
+prediction: NOT_SARCASM
 ```
